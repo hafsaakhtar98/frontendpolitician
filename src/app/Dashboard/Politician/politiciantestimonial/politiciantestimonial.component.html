@@ -1,0 +1,9 @@
+<p>politiciantestimoniales works</p>
+<button (click)="getAll()" >Veiw All</button><br>
+<input type="text" name ="id"><button (click)="getOne()" >Veiw One</button>
+<div *ngFor="let pc of politiciantestimoniales">
+<p>
+    {{pc.politiciantestimonial_DESC}}  <br>
+    {{pc.politiciantestimonial_TITLE}}
+</p>
+</div>
